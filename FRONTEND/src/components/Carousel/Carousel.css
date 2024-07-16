@@ -1,0 +1,12 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-top: 50px;
+}
+
+.carousel .slide img {
+  max-height: 50%;
+  max-width: 50%;
+}

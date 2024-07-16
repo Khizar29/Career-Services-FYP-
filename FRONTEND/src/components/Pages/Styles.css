@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #004E8F;
+}
+
+.heading {
+  justify-content: center;
+  text-align: center;
+}
+
+.Button{
+  display: flex;
+  justify-content: center;
+}
+
+.add-job-button {
+  background-color: #004E8F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto 5px;
+  width:100px;
+  
+  
+}
+

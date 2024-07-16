@@ -1,0 +1,12 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+    background-color: #c7ecfc; /* Set your desired background color */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to viewport height */
+  }

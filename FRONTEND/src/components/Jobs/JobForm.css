@@ -1,0 +1,79 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.job-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.job-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333; /* Darker text for contrast */
+}
+
+.job-form input,
+.job-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Softer border */
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* Smooth transition for focus state */
+}
+
+.job-form input[type="submit"],
+.job-form input[type="reset"] {
+  background: linear-gradient(to right, #007bff, #00c6ff); /* Gradient background */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.job-form input[type="submit"]:hover,
+.job-form input[type="reset"]:hover {
+  background: linear-gradient(to right, #00c6ff, #007bff); /* Reverse gradient on hover */
+}
+
+.job-form.error {
+  color: #ff0000;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+ .job-form {
+    padding: 15px;
+    margin: 30px auto;
+  }
+
+ .job-form input,
+ .job-form textarea {
+    padding: 10px 15px;
+  }
+
+ .job-form input[type="submit"],
+ .job-form input[type="reset"] {
+    padding: 10px 20px;
+  }
+}

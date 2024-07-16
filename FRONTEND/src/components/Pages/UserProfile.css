@@ -1,0 +1,144 @@
+.user-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.user-profile.edit-mode {
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333333;
+  text-align: center;
+}
+
+.user-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.user-form-group {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.user-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+.user-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #333333;
+  transition: border-color 0.3s ease;
+}
+
+.user-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* .profile-picture-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-picture-container input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+} */
+
+.profile-picture-container {
+  position: relative;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.user-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.user-profile-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-profile-btn.primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.user-profile-btn.secondary {
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+.user-profile-btn:hover {
+  opacity: 0.8;
+}
+
+.user-profile-btn svg {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .user-form-group {
+    flex: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

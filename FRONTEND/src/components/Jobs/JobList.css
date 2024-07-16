@@ -1,0 +1,53 @@
+.job-list {
+  margin: 20px auto;
+  padding: 0;
+  width: 90%;
+}
+
+.job-item {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.job-title {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+.job-description {
+  margin: 10px 0;
+}
+
+.job-link a {
+  color: #007bff;
+}
+
+.job-details p {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-job,
+.edit-job {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-job {
+  background-color: #dc3545;
+}
+
+.edit-job {
+  background-color: #007bff;
+}
+

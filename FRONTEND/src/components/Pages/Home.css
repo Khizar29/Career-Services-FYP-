@@ -1,0 +1,19 @@
+/* Typewriter effect */
+.typewriter-text {
+  overflow: hidden;
+  /* Ensures the text is not visible outside the container */
+  white-space: nowrap;
+  /* Keeps the text on a single line */
+  margin: 0 auto;
+  /* Centers the text horizontally */
+  letter-spacing: .15em;
+  /* Adjusts spacing between letters */
+  animation: typing 3.5s steps(30, end);
+  /* Animates the typing effect */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
